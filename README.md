@@ -1,3 +1,18 @@
+# Desktop Organizer Script
+
+This script organizes your desktop by moving files into categorized folders based on their file types, such as Documents, Images, Videos, and more. 
+
+## How It Works
+1. **Identifies Desktop Path**: Determines the desktop path based on the operating system.
+2. **Defines File Categories**: Sets up categories for various file types (e.g., Documents, Images, Videos).
+3. **Ensures Directories Exist**: Creates necessary directories within an "Organized Desktop" folder if they do not already exist.
+4. **Reads and Moves Files**: Scans all files on the desktop, excluding specified files, and moves them into the appropriate directories based on their extensions.
+5. **Handles Miscellaneous Files**: Files that do not match any predefined category are moved to a "Miscellaneous" folder.
+
+By running this script, your desktop will be neatly organized, with files systematically arranged into relevant folders.
+
+
+
 Here are step-by-step instructions for deploying and using the provided Node.js script on a Windows system:
 
 ### Prerequisites
